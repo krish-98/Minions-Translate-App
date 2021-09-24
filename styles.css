@@ -16,7 +16,6 @@ body {
 }
 
 /* header */
-
 h1 {
   background: var(--primary-color);
   text-align: center;
@@ -45,6 +44,7 @@ h1 {
   font-size: large;
   border: none;
   cursor: pointer;
+  font-family: 'Dancing Script', cursive;
 }
 
 /* text box */
