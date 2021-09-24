@@ -12,6 +12,7 @@ const eventHandler = () => {
   fetch(constructURL(userInput))
   .then(res => res.json())
   .then(data => outputTxt.innerText = data.contents.translated)
+  .catch(() => console.log("There is some Error in the server"))
 }
 
 btn.addEventListener("click", eventHandler)
