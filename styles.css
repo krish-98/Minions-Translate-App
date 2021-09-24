@@ -24,13 +24,7 @@ h1 {
   margin-top: 0rem;
 }
 
-.container {
-  max-width: 900px;
-  margin: auto;
-}
-
 /* textarea */
-
 #input-txt {
   display: block;
   width: 60%;
@@ -42,7 +36,6 @@ h1 {
 }
 
 /* button */
-
 #btn-translate {
   display: block;
   background: var(--primary-color);
@@ -57,14 +50,23 @@ h1 {
 /* text box */
 
 #output-txt {
-  display: block;
+  border: 1px solid var(--black);
   width: 60%;
   height: 20vh;
-  margin: 0 auto;
+  padding: 2rem;
+  margin: 0 auto; 
+  font-size: large;
+  font-weight: bold;
+}
+
+#output-txt:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
 }
 
 /* footer */
-
 #footer {
   background: var(--primary-color);
   height: 27vh;
@@ -72,5 +74,4 @@ h1 {
   text-align: center;
   padding: 2rem;
   margin-top: 2rem;
-  margin-bottom: 0rem;
 }
